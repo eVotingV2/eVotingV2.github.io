@@ -6,8 +6,9 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Document</title>
 	</head>
+	
 	<body>
-		<h1>eVoting</h1>
+		<h1>eVoting.v2</h1>
 		<p>
 			<a href="./index.html"><b>Home</b></a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,35 +19,47 @@
 		
 		<hr size = 5>
 		
-		<ol>
+		<ol start="0">
 			<li>
-				<p>自我確認事項</p>
+				<p><strong>自我確認事項</strong></p>
 				<ul>
-					<li>電腦環境: <span style="color:red">Windows</span>作業系統 + <span style="color:red">Chrome</span>瀏灠器</li>
-					<li>確認所有投票帳號在電子投票網頁, 皆可使用<span style="color:red">券商網路下單憑證</span>登入, 且按下登入鈕後即可直接登入, <span style="color:red">不會再有多餘的手動選擇憑證動作!</span><br>
-						<img src="./images/TDCC-login.png" alt="TDCC-login" width="450" />
-					</li>
-					<li>執行投票前, 請確認<span style="color:red">TDCC集保安控中介程式</span>已啟動<br>
+					<li>電腦環境： <span style="color:red">Windows</span>作業系統&emsp;+&emsp;<span style="color:red">Chrome</span>瀏灠器</li>
+					<li>執行投票前，請確認<span style="color:red">TDCC集保安控中介程式</span>已啟動(如下圖示)，否則無法成功登入！<br>
 						<img src="./images/TDCC.png" alt="TDCC" />
+					</li>
+					<li>確認所有投票帳號的<span style="color:red">券商網路下單憑證</span>已匯入Chrome憑證管理，在<a href="https://stockservices.tdcc.com.tw/evote/login/shareholder.html?language=TW&platform=eVoting">電子投票網頁</a>按下登入後即可直接登入，<span style="color:red">不會再有多餘的手動選擇憑證動作！</span><br>
+						<img src="./images/login_1.png" alt="TDCC-login1" width="450" /><img src="./images/login_2.png" alt="TDCC-login2" width="450" /><img src="./images/login_3.png" alt="TDCC-login3" width="450" /><br>
+						※不支援其他種類憑證！<br>
+						※Chrome憑證管理可參考股東e服務網站的<a href="./documents/CAcheck.pdf">PDF說明文件</a>，第二項，步驟&emsp;4&emsp;可<span style="color:red">匯入</span>憑證！<br>
 					</li>
 				</ul>
 				<hr>
 			</li>
 			<li>
 				<img src="./images/id-card.png" alt="Set IDs" width = "64" height="64" />
-				&emsp;<strong>Set IDs:設定所有投票者的完整身份證字號</strong><br/>
+				&emsp;<strong>Set IDs：設定所有投票者的完整身份證字號，填完後直接按☒離開！</strong><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;假設ID001~ID004為已註冊身份證字號，ID005為已試用過身份證字號，ID006為黑名單身份證字號，ID007為未註冊身份證字號！<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/id-card-example.png" alt="Set IDs example" /><br/>
 				<hr>
 			</li>
 			<li>
-				<img src="./images/ballot-box.png" alt="Start Voting" width = "64" height="64" />
-				&emsp;<strong>Start Voting: 開始進行投票</strong><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/id-card-example.png" alt="Set IDs example" /><br/>
+				<img src="./images/ballot-box.png" alt="Auto Voting" width = "64" height="64" />
+				&emsp;<strong>Auto Voting：開始進行投票</strong><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-1.png" alt="ballot-box-example-1" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-2.png" alt="ballot-box-example-2" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;正常情況下，投完會出現<span style="color:blue">結束投票, 請關閉此視窗!</span><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-3.png" alt="ballot-box-example-3" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-4.png" alt="ballot-box-example-4" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-5.png" alt="ballot-box-example-5" /><br/>
 				<hr>
 			<li>
 				<img src="./images/pdf.png" alt="Create PDF" width = "64" height="64" />
 				&emsp;<strong>Create PDF</strong><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/id-card-example.png" alt="Set IDs example" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;將程式所在目錄下的截圖文件夾，整理到A4大小的PDF檔。<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-1.png" alt="pdf-example-1" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-2.png" alt="pdf-example-2" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-3.png" alt="pdf-example-3" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;印出後，以條碼槍實測可正確掃瞄出條碼。<br/>
 				<hr>
 			</li>				
 	</body>
