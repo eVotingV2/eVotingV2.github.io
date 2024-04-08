@@ -8,7 +8,7 @@
 	</head>
 	
 	<body>
-		<h1>eVoting.v2</h1>
+		<h1>eVoting 按鍵精靈 v2 </h1>
 		<p>
 			<a href="./index.html"><b>Home</b></a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -29,7 +29,7 @@
 					</li>
 					<li>確認所有投票帳號的<span style="color:red">券商網路下單憑證</span>已匯入Chrome憑證管理，在<a href="https://stockservices.tdcc.com.tw/evote/login/shareholder.html?language=TW&platform=eVoting">電子投票網頁</a>按下登入後即可直接登入，<span style="color:red">不會再有多餘的手動選擇憑證動作！</span><br>
 						<img src="./images/login_1.png" alt="TDCC-login1" width="450" /><img src="./images/login_2.png" alt="TDCC-login2" width="450" /><img src="./images/login_3.png" alt="TDCC-login3" width="450" /><br>
-						※不支援其他種類憑證！<br>
+						※不支援其他種類憑證及其它瀏覽器！<br>
 						※Chrome憑證管理可參考股東e服務網站的<a href="./documents/CAcheck.pdf">PDF說明文件</a>，第二項，步驟&emsp;4&emsp;可<span style="color:red">匯入</span>憑證！<br>
 					</li>
 				</ul>
@@ -38,8 +38,9 @@
 			<li>
 				<img src="./images/id-card.png" alt="Set IDs" width = "64" height="64" />
 				&emsp;<strong>Set IDs：設定所有投票者的完整身份證字號，填完後直接按☒離開！</strong><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;假設ID001~ID004為已註冊身份證字號，ID005為已試用過身份證字號，ID006為黑名單身份證字號，ID007為未註冊身份證字號！<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;範例：假設 ID001~ID004 為已註冊身份證字號，ID005 為已試用過身份證字號，ID006 為黑名單身份證字號，ID007 為未註冊身份證字號！<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/id-card-example.png" alt="Set IDs example" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;※後5碼註冊信箱：eVoting.v2.no.reply@gmail.com(僅供註冊&發佈程式用，不回覆問題)<br/>
 				<hr>
 			</li>
 			<li>
@@ -47,19 +48,32 @@
 				&emsp;<strong>Auto Voting：開始進行投票</strong><br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-1.png" alt="ballot-box-example-1" /><br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-2.png" alt="ballot-box-example-2" /><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;正常情況下，投完會出現<span style="color:blue">結束投票, 請關閉此視窗!</span><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;正常情況下，投完會出現<span style="color:blue">結束投票，請關閉此視窗！</span><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;※如果一直沒有出現，可能某個thread卡住了，請將程式<span style="color:blue">完全關閉並重啟！不要直接再按投票按鈕！</span><br/>
+				<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;投票結果摘要：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-3.png" alt="ballot-box-example-3" /><br/>
+				<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;主目錄下，會建立對應的截圖文件夾：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-4.png" alt="ballot-box-example-4" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;※如需彙整 PDF，暫時先不要修改截圖文件夾路徑及名稱。<br/>
+				<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;截圖文件夾中，為 .png 圖檔：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/ballot-box-example-5.png" alt="ballot-box-example-5" /><br/>
 				<hr>
 			<li>
 				<img src="./images/pdf.png" alt="Create PDF" width = "64" height="64" />
 				&emsp;<strong>Create PDF</strong><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;將程式所在目錄下的截圖文件夾，整理到A4大小的PDF檔。<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;將主目錄下的截圖文件夾，彙整成 A4 大小的 PDF 檔：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-1.png" alt="pdf-example-1" /><br/>
+				<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;主目錄下，會建立對應的 PDF 檔：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-2.png" alt="pdf-example-2" /><br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;雙行條碼截圖，一頁約可放下 9 張截圖：<br/>
 				&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/pdf-example-3.png" alt="pdf-example-3" /><br/>
-				&emsp;&emsp;&emsp;&emsp;&emsp;印出後，以條碼槍實測可正確掃瞄出條碼。<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;列印後，以條碼槍實測，可正確掃瞄出條碼內容。<br/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;彙整後，可將截圖文件夾整理至其它路徑，否則下次彙整時，會被重複彙整。<br/>
+				<br/><br/><br/>
 				<hr>
 			</li>				
 	</body>
